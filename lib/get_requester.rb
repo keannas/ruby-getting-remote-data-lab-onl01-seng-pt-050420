@@ -1,6 +1,4 @@
-require 'net/http'
-require 'open-uri'
-require 'json'
+
  
 class GetPrograms
  
@@ -14,5 +12,3 @@ class GetPrograms
  
 end
  
-programs = GetPrograms.new.get_programs
-puts programs
